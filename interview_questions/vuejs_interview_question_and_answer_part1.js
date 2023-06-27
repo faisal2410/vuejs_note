@@ -43,27 +43,35 @@
 
 
 // 1.What is VueJS ?
+// Ans : A Javascript framework
 
 // ✅Explanation:
 // Vue.js is a progressive JavaScript framework used for building user interfaces.It focuses on the view layer and offers features such as declarative rendering, component - based architecture, and reactivity.For more information, you can refer to the official Vue.js website at https://vuejs.org/.
 
 
 // 2.What are the major features of VueJS ?
+// Ans : Declarative rendering
 
 // ✅Explanation
 // Vue.js offers declarative rendering, allowing developers to describe the desired UI state and the framework handles updates automatically.It also provides a component - based architecture and supports reactivity to efficiently update the UI when data changes.For more details, you can visit the Vue.js documentation on the official website: https://vuejs.org/.
 
 // 3.What are the lifecycle methods of VueJS ?
+// Ans: beforeCreate, created, beforeMount, mounted, beforeUpdate, updated, beforeDestroy,
+//     destroyed
 
 // ✅Explanation
 // Vue.js has lifecycle methods that allow developers to hook into different stages of a component's lifecycle. These methods include beforeCreate, created, beforeMount, mounted, beforeUpdate, updated, beforeDestroy, and destroyed. They enable performing actions or logic at specific points in a component's lifespan.You can find more information about Vue.js lifecycle methods in the Vue.js documentation: https://vuejs.org/v2/guide/instance.html#Lifecycle-Diagram.
 
 //4. What are the conditional directives in VueJS ?
+// Ans : v-if, v-else-if, v-else
 
 // ✅Explanation
 // Vue.js provides conditional directives to conditionally render elements based on a certain condition.The conditional directives in Vue.js include v -if, v -else -if, and v -else.These directives allow developers to control the visibility of elements based on the truthiness of the condition.For more details, you can refer to the Vue.js documentation on conditional rendering: https://vuejs.org/v2/guide/conditional.html.
 
 // 5.What is the difference between v - show and v -if directives ?
+
+// Ans: v - show is used for toggling the visibility of elements, and v -if is used for
+// conditionally rendering elements by adding or removing them from the DOM
 
 // ✅Explanation
 // The main difference between v - show and v -if directives in Vue.js is how they handle the rendering of elements.v - show toggles the visibility of elements by toggling the CSS display property, which means the element is always rendered in the DOM but hidden when the condition is false.On the other hand, v -if conditionally renders elements by adding or removing them from the DOM, meaning the element is not rendered at all when the condition is false.Depending on the use case, you can choose between v - show and v -if based on performance and behavior requirements.For more information, you can refer to the Vue.js documentation on conditional rendering: https://vuejs.org/v2/guide/conditional.html.
